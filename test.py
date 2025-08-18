@@ -110,7 +110,7 @@ SONGS = {
     "🧘 집중/공부": [
         {"title": "Nujabes - Feather", "url": "https://www.youtube.com/watch?v=1st8a4QZQzM"},
         {"title": "Lo-fi beats to study", "url": "https://www.youtube.com/watch?v=5qap5aO4i9A"},
-        {"title": "윤한 - Serenade", "url": "https://www.youtube.com/watch?v=0kKQfX0A9yM"}
+        {"title": "윤한 - Serenade", "url": "https://youtu.be/D4678C2QV50?si=i0ZbyNdyslaYafts"}
     ],
     "🚀 운동/드라이브": [
         {"title": "The Weeknd - Blinding Lights", "url": "https://www.youtube.com/watch?v=fHI8X4OXluQ"},
