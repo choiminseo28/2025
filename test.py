@@ -1,41 +1,41 @@
 import streamlit as st
 import random
-import requests
-from io import BytesIO
-from PIL import Image
 
-st.set_page_config(page_title="AI 그림 맞추기 게임", page_icon="🎨", layout="centered")
+st.set_page_config(page_title="오늘 뭐 먹지?", page_icon="🍜", layout="centered")
 
-st.title("🎨 AI 그림 맞추기 게임 🐶🐱")
-st.write("랜덤 이미지를 보고 **고양이인지 강아지인지** 맞혀보세요!")
+st.title("🍽️ 오늘 뭐 먹지? 메뉴 룰렛 🎰")
+st.write("메뉴 정하기 어려울 때 룰렛을 돌려보세요!")
 
-# 점수 관리
-if "score" not in st.session_state:
-    st.session_state.score = 0
-if "round" not in st.session_state:
-    st.session_state.round = 1
+# 메뉴 후보 리스트
+menus = [
+    "🍣 초밥",
+    "🍜 라면",
+    "🍕 피자",
+    "🍔 햄버거",
+    "🥩 스테이크",
+    "🍛 카레",
+    "🥗 샐러드",
+    "🍗 치킨",
+    "🌮 타코",
+    "🍱 도시락",
+    "🍙 삼각김밥",
+    "🥟 만두",
+    "🍤 새우튀김",
+    "🍦 아이스크림",
+    "🥪 샌드위치"
+]
 
-# 랜덤으로 정답 고르기
-true_label = random.choice(["고양이", "강아지"])
+if st.button("룰렛 돌리기 🎰"):
+    choice = random.choice(menus)
+    st.success(f"오늘의 추천 메뉴는... {choice} 입니다! 🎉")
 
-# 랜덤 이미지 불러오기 (임시로 picsum 사용)
-url = f"https://picsum.photos/400/300?random={random.randint(1,10000)}"
-response = requests.get(url)
-img = Image.open(BytesIO(response.content))
+st.sidebar.header("설정 ⚙️")
+add_menu = st.sidebar.text_input("메뉴 직접 추가")
+if st.sidebar.button("추가하기"):
+    if add_menu:
+        menus.append(add_menu)
+        st.sidebar.success(f"{add_menu} 추가 완료!")
 
-st.image(img, caption=f"문제 {st.session_state.round}", use_column_width=True)
+st.sidebar.write("현재 메뉴 후보:")
+st.sidebar.write(", ".join(menus))
 
-choice = st.radio("이 이미지는 무엇일까요?", ["고양이", "강아지"])
-
-if st.button("제출"):
-    if choice == true_label:
-        st.success("정답입니다! ✅")
-        st.session_state.score += 1
-    else:
-        st.error(f"틀렸습니다 ❌ 정답은 {true_label}")
-    st.session_state.round += 1
-    st.write(f"현재 점수: {st.session_state.score}")
-
-st.sidebar.write("📊 게임 현황")
-st.sidebar.write(f"라운드: {st.session_state.round}")
-st.sidebar.write(f"점수: {st.session_state.score}")
