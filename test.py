@@ -109,7 +109,7 @@ SONGS = {
     ],
     "🧘 집중/공부": [
         {"title": "Nujabes - Feather", "url": "https://www.youtube.com/watch?v=1st8a4QZQzM"},
-        {"title": "Lo-fi beats to study", "url": "https://www.youtube.com/watch?v=5qap5aO4i9A"},
+        {"title": "(playlist) 노르웨이 숲으로 가자, 가사없는 노래", "url": "https://youtu.be/m876TGnxFxQ?si=zE0G6vCKjGsEDjWD"},
         {"title": "윤한 - Serenade", "url": "https://youtu.be/D4678C2QV50?si=i0ZbyNdyslaYafts"}
     ],
     "🚀 운동/드라이브": [
