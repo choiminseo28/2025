@@ -108,7 +108,7 @@ SONGS = {
         {"title": "PSY - DADDY", "url": "https://www.youtube.com/watch?v=FrG4TEcSuRg"}
     ],
     "🧘 집중/공부": [
-        {"title": "Nujabes - Feather", "url": "https://www.youtube.com/watch?v=1st8a4QZQzM"},
+        {"title": "제발 듣지 마세요. 밥도 안먹고 공부만 하게 됩니다", "url": "https://youtu.be/APOQv1oV0EY?si=H2iL_ZXtzbjv4Zjq"},
         {"title": "(playlist) 노르웨이 숲으로 가자, 가사없는 노래", "url": "https://youtu.be/m876TGnxFxQ?si=zE0G6vCKjGsEDjWD"},
         {"title": "윤한 - Serenade", "url": "https://youtu.be/D4678C2QV50?si=i0ZbyNdyslaYafts"}
     ],
