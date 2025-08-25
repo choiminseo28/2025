@@ -78,9 +78,9 @@ SONGS = {
     ],
     "😢 우울/위로": [
         {"title": "Adele - Someone Like You", "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"},
-        {"title": "윤하 - 사건의 지평선", "url": "https://www.youtube.com/watch?v=g3B2rYI5E1E"},
+        {"title": "윤하 - 사건의 지평선", "url": "https://youtu.be/mnpQsM-tqQU?si=3Q4IVyZ3G4PKJuxr"},
         {"title": "Sam Smith - Too Good At Goodbyes", "url": "https://www.youtube.com/watch?v=J_ub7Etch2U"},
-        {"title": "백예린 - Square", "url": "https://www.youtube.com/watch?v=tDukIfFzX18"}
+        {"title": "백예린 - Square", "url": "https://youtu.be/421QbDCcBAc?si=V2zs3f6iG2ynuWjI"}
     ],
     "😡 파워/분노해소": [
         {"title": "Imagine Dragons - Believer", "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc"},
@@ -90,7 +90,7 @@ SONGS = {
     "😴 힐링/휴식": [
         {"title": "LOFI Girl - lofi hip hop radio", "url": "https://www.youtube.com/watch?v=jfKfPfyJRdk"},
         {"title": "BTS - Spring Day (봄날)", "url": "https://www.youtube.com/watch?v=xEeFrLSkMm8"},
-        {"title": "Crush - 가끔", "url": "https://www.youtube.com/watch?v=2Gm_PfUq9w8"}
+        {"title": "Crush - 가끔", "url": "https://youtu.be/n1tXe9As5IQ?si=WpU7hMHZrh_Qa75B"}
     ],
     "😎 자신감/쿨": [
         {"title": "BLACKPINK - DDU-DU DDU-DU", "url": "https://www.youtube.com/watch?v=IHNzOHi8sJs"},
