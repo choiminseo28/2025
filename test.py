@@ -72,8 +72,8 @@ SONGS = {
         {"title": "BTS - Dynamite", "url": "https://www.youtube.com/watch?v=gdZLi9oWNZg"}
     ],
     "😊 차분/따뜻": [
-        {"title": "Paul Kim - 모든 날, 모든 순간", "url": "https://www.youtube.com/watch?v=JwFqkZMW9p8"},
-        {"title": "Lauv - I Like Me Better", "url": "https://www.youtube.com/watch?v=3tUh-x-fp8Q"},
+        {"title": "Paul Kim - 모든 날, 모든 순간", "url": "https://youtu.be/nq0BYGyH2Do?si=kjatz8spYB8WeOHr"},
+        {"title": "Lauv - I Like Me Better", "url": "https://youtu.be/bnVkf-z28YU?si=TXde9Rw36_N5FmeM"},
         {"title": "IU - 밤편지", "url": "https://www.youtube.com/watch?v=BzYnNdJhZQw"}
     ],
     "😢 우울/위로": [
